@@ -1,8 +1,36 @@
 body{
     color: white;
     background-color: black;
-    /* background-size: cover; */
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
+    background-position: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    width: 30%;
+}
+
+input{
+    border-radius: 5px;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: 24px;
+}
+
+button:hover{
+    background-color: rgb(224, 146, 224);
+    transition: 0.7s;
+}
+
+#frame{
+    height: 500px;
+    width: 800px;
 }

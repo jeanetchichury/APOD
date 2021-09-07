@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Veja a foto do espaço que a NASA tirou no dia que você nasceu!</h1>
-    <form action="get">
-        <label for="dia">dia</label>
-        <input type="date" id="dia">
-        <button>Ver a foto!</button>
-    </form>
-    <p></p>
-    <script 
-    src="https://code.jquery.com/jquery-3.6.0.js"
+    <main>
+        <section>
+            <h1>Veja a foto do espaço que a NASA tirou no dia que você nasceu!</h1>
+            <form action="get">
+                <label for="dia">dia</label>
+                <input type="date" id="dia">
+                <button>Ver a foto!</button>
+            </form>
+            <p id="erro"></p>
+            <h2></h2>
+            <p id="descritor"></p>
+        </section>
+        <div id="video">
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
